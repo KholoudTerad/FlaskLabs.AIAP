@@ -8,7 +8,7 @@ to get "blog NO. 121!":
 http://127.0.0.1:5000/hello/121 
 
 
-Lab6 using postman
+FlaskTweetApp using postman
 
 Accepts a tweet from the user:
 POST / http://192.168.100.2:5000/add_tweet
