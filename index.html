@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Conversational Chatbot</h1>
+    <form action="/classify_message" method="post">
+        <label for="user_message">Enter your message:</label><br>
+        <input type="text" id="user_message" name="user_message"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="response">
+        {% if response %}
+            <p><strong>Response:</strong> {{ response }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
